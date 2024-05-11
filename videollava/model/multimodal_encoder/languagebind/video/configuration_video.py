@@ -202,7 +202,7 @@ class CLIPVisionConfig(PretrainedConfig):
         lora_dropout=0.0, ################################
         num_mel_bins=0.0, ################################
         target_length=0.0, ################################
-        video_decode_backend='decord', #########################
+        video_decode_backend='lmdb', #########################
         **kwargs,
     ):
         super().__init__(**kwargs)
